@@ -1,0 +1,20 @@
+{
+  "name": "fiserv",
+  "version": "1.0.0",
+  "description": "test for job",
+  "main": "dist/local.js",
+  "scripts": {
+    "build": "npx tsc -pretty -p .",
+    "startDev": "nodemon src/local.ts",
+    "start": "node ."
+  },
+  "author": "Spencer Davis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7"
+  }
+}
